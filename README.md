@@ -42,6 +42,6 @@ La líneas anteriores inicializan npm en la carpeta raíz (esto permite comparti
      //responder lo que pregunte (nameProject, framework, variant)
 >> cd NameProject
 >> npm install       
->>npm run dev   
+>> npm run dev   
      //Inicializa proyecto y te da la url para previsualizacion   
 ```
