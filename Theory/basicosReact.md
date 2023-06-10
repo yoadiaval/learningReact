@@ -1202,3 +1202,55 @@ class App extends React.Component {
 
 ReactDOMServer.renderToString(<App />)
 ```
+
+---
+# Configurar proyecto desde cero. Básico sin nada externo (para aprender las bases), utilizando CRA (create-react-app)
+
+En el terminal
+``` 
+>> npx create-react-app nameProject
+>> cd nameProject
+>> npm start
+```
+
+Abrir carpeta en Visual Studio Code
+
+Entructura básica de proyecto (eliminar todo lo demás)
+
+```
+--ProjectName
+----node_modules (folder)
+----public (folder)
+--------index.html   
+----src (folder)
+---------index.js
+----gitignore
+----{}package-lock.json
+----{}package.json
+----README.md
+
+
+```
+
+En *index.js* codigo b'asico para mostrar en web
+
+```javascript
+// 1) Import the React and ReactDOM libraries
+import React from  'react';
+import ReactDOM from 'react-dom/client';
+
+
+// 2) Get a reference to the div with ID root
+const el = document.getElementById('root'); 
+
+// 3) Tell React to take control of that element
+const root = ReactDOM.createRoot(el);
+
+// 4) Create a component
+function App() {
+    return <h1>Hi there!</h1>;
+}
+
+// 5) show the component on th screen
+root.render(<App />)
+```
