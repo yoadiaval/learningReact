@@ -4,7 +4,7 @@
 
 2. Inicializar proyecto
    
-`npx create-react-app` 
+`npx create-react-app appname` 
 
 3. Depurar carpetas dejando solo lo que necesito (de momento)
    
